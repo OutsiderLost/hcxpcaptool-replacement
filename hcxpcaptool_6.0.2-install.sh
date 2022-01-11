@@ -33,7 +33,7 @@ echo "Unecesary files removed..."
 cd .. && rm -r hcxtools-6.0.2
 
 echo " "
-echo 'Testing "help" -> hcxpcaptool'
+echo 'Testing "help" -> hcxpcaptool -h'
 
 hcxpcaptool -h
 
