@@ -38,4 +38,4 @@ echo 'Testing "help" -> hcxpcaptool'
 hcxpcaptool -h
 
 echo " "
-echo "If all released good -> hcxpcaptool :-)"
+echo "If all released good -> hcxpcaptool !!! :-)"
