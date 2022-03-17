@@ -17,7 +17,7 @@ echo "2. Method: download & unmount & make & move"
 echo " "
 echo "wait..."
 
-wget http://archive.ubuntu.com/ubuntu/pool/universe/h/hcxtools/hcxtools_6.0.2.orig.tar.gz && tar -xvf hcxtools_6.0.2.orig.tar.gz && rm hcxtools_6.0.2.orig.tar.gz
+wget http://archive.ubuntu.com/ubuntu/pool/universe/h/hcxtools/hcxtools_6.0.2.orig.tar.gz && tar -xvzf hcxtools_6.0.2.orig.tar.gz && rm hcxtools_6.0.2.orig.tar.gz
 
 cd hcxtools-6.0.2
 
