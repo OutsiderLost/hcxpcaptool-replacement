@@ -18,13 +18,15 @@ echo "wait..."
 # (If dont work: Solution 4)
 # chmod 775 /usr/bin/hcxpcaptool && chmod 777 /usr/bin/hcxpcaptool
 
-unzip hcxpcaptool-offline.zip && rm hcxpcaptool-offline.zip
+# unzip hcxpcaptool-offline.zip && rm hcxpcaptool-offline.zip
 
-# ls && sleep 2 && chmod 775 hcxpcaptool && chmod 777 hcxpcaptool
+tar -xvzf hcxpcaptool-offline.tar.gz && rm hcxpcaptool-offline.tar.gz
+
+ls && sleep 2 && chmod 775 hcxpcaptool && chmod 777 hcxpcaptool
 
 mv hcxpcaptool /usr/bin/
 
-chmod 775 /usr/bin/hcxpcaptool && chmod 777 /usr/bin/hcxpcaptool
+# chmod 775 /usr/bin/hcxpcaptool && chmod 777 /usr/bin/hcxpcaptool
 
 cd ..
 
