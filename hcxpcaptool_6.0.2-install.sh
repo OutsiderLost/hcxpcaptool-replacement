@@ -8,7 +8,7 @@ echo "1. Method -> update & expected installation"
 echo ""
 echo "wait..."
 
-sudo apt update && sleep 10 && sudo apt-get install libcurl4-openssl-dev libssl-dev pkg-config && sleep 10
+apt update && sleep 10 && yes | apt-get install libcurl4-openssl-dev libssl-dev pkg-config && sleep 10
 
 echo " "
 echo "Performed! :-)"
